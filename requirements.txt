@@ -1,2 +1,2 @@
-git+https://github.com/n3ddu8/cnxns.git#egg=cnxns
+cnxns
 pyyaml
