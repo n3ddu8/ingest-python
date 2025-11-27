@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 # ingest-python
 
 **ingest-python** is an ingestion tool written in Python (relying only on locally installable packages such as Pandas) designed to extract data from source systems and persist it into SQL Server. It is intended for small datasets, where "small" refers to data volumes that do not require big data frameworks.
@@ -264,3 +270,16 @@ For consistency, it's suggested you use the same name as the definition.
 ## Logging
 - Logs are written to the configured log_path.
 - After each run, review the logs if data is missing or unexpected.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/philipbudden/ingest-python.svg?style=for-the-badge
+[contributors-url]: https://github.com/philipbudden/ingest-python/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/philipbudden/ingest-python.svg?style=for-the-badge
+[forks-url]: https://github.com/philipbudden/ingest-python/network/members
+[stars-shield]: https://img.shields.io/github/stars/philipbudden/ingest-python.svg?style=for-the-badge
+[stars-url]: https://github.com/philipbudden/ingest-python/stargazers
+[issues-shield]: https://img.shields.io/github/issues/philipbudden/ingest-python.svg?style=for-the-badge
+[issues-url]: https://github.com/philipbudden/ingest-python/issues
+[license-shield]: https://img.shields.io/github/license/philipbudden/ingest-python.svg?style=for-the-badge
+[license-url]: https://github.com/philipbudden/ingest-python/blob/main/LICENSE
